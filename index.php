@@ -11,7 +11,7 @@ try
 //	$myHandle->myAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   }   catch(PDOException $pe)
       {
-		echo $pe->getMessage();
+		echo "server gave error as:".$pe->getMessage()."</br>";
 		die();
       }
 	  
