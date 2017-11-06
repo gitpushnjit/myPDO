@@ -1,6 +1,5 @@
-//by pg395
 <?php
-
+//by pg395
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
 
