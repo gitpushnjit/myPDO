@@ -70,7 +70,7 @@ class account {}
 
 $accountRecords = accounts::getRecords();
 
-echo "Total number of results are: ".count($accountRecords)."</br>";
+echo "The number of results found are: ".count($accountRecords)."</br>";
 echo "<table border=\"1\"><tr><th>id</th><th>email</th><th>fname</th><th>lname</th><th>phone</th><th>birthday</th><th>gender</th><th>password</th></tr>";
 foreach($accountRecords as $tempRecord){
 
